@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>TheOneBag</Name>
+		<Author>Rod</Author>
+		<Version>1.0</Version>
+	</Information>
+	<Package>TurbinePlugins.TheOneBag.Main</Package>
+</Plugin>
