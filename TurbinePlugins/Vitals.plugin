@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>Vitals</Name>
+		<Author>Rod</Author>
+		<Version>1.0</Version>
+	</Information>
+	<Package>TurbinePlugins.Vitals.Main</Package>
+	<!--<Configuration Apartment="Vitals">
+	</Configuration>-->
+</Plugin>

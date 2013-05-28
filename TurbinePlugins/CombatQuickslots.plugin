@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>CombatQuickslots</Name>
+		<Author>Rod</Author>
+		<Version>1.1</Version>
+	</Information>
+	<Package>TurbinePlugins.CombatQuickslots.Main</Package>
+</Plugin>
