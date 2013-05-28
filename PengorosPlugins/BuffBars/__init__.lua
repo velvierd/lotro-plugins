@@ -1,0 +1,33 @@
+-- setup localization for the package
+L = PengorosPlugins.Utils.DefaultLocale();
+PengorosPlugins.Utils.ImportLocale("PengorosPlugins.BuffBars");
+
+import "PengorosPlugins.BuffBars.Constants";
+import "PengorosPlugins.BuffBars.Settings";
+import "PengorosPlugins.BuffBars.CharacterSettings";
+import "PengorosPlugins.BuffBars.AccountSettings";
+import "PengorosPlugins.BuffBars.EffectSettings";
+import "PengorosPlugins.BuffBars.EffectBarSettings";
+import "PengorosPlugins.BuffBars.SliderSettings";
+import "PengorosPlugins.BuffBars.QuickslotSettings";
+import "PengorosPlugins.BuffBars.LogSettings";
+import "PengorosPlugins.BuffBars.CombatAnalysisEffectDisplay";
+import "PengorosPlugins.BuffBars.EffectItem";
+import "PengorosPlugins.BuffBars.EffectList";
+import "PengorosPlugins.BuffBars.EffectTrigger";
+import "PengorosPlugins.BuffBars.EffectTriggerWindow";
+import "PengorosPlugins.BuffBars.CoolDownItem";
+import "PengorosPlugins.BuffBars.CoolDownList";
+import "PengorosPlugins.BuffBars.Trigger";
+import "PengorosPlugins.BuffBars.TriggerWindow";
+import "PengorosPlugins.BuffBars.OptionsGeneralPanel";
+import "PengorosPlugins.BuffBars.OptionsEffectPanel";
+import "PengorosPlugins.BuffBars.OptionsSliderPanel";
+import "PengorosPlugins.BuffBars.OptionsQuickslotPanel";
+import "PengorosPlugins.BuffBars.OptionsPanel";
+import "PengorosPlugins.BuffBars.EffectWindow";
+import "PengorosPlugins.BuffBars.QuickslotBar";
+import "PengorosPlugins.BuffBars.Log";
+import "PengorosPlugins.BuffBars.SliderItem";
+import "PengorosPlugins.BuffBars.SliderCoolDownItem";
+import "PengorosPlugins.BuffBars.SliderWindow";

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Plugin>
+    <Information>
+        <Name>BuffBars</Name>
+        <Author>Pengoros</Author>
+        <Version>2.1.0_b2 RUS</Version>
+        <Description><![CDATA[BuffBars provides an alternate view for buffs, debuffs, and pot cooldowns.  The display is fully customizable and effects can be filtered to show only the ones you are interested in.  Major features include:
+
+- Effect windows showing effects as a bar graph that shrinks as the time expires.
+- Effect sliders that show all effects on one bar.  The effects move faster as they get closer to expiration.
+- Quickslot bars to provide an easy way to pop up a pot or skill when you are low on morale/power or have curable debuffs.
+- Triggers to define which effects are matched.  BuffBars comes with common templates or you can customize your own.
+
+For a full list of features, visit:
+http://www.lotrointerface.com/downloads/info361-BuffBars.html
+
+
+Mob debuffs and crowd control effects that you apply can be shown in the windows as well if you are running the Combat Analysis plugin which can be found here:
+http://www.lotrointerface.com/downloads/info502-CombatAnalysis.html]]></Description>
+    </Information>
+    <Package>PengorosPlugins.BuffBars.Main</Package>
+    <Configuration Apartment="Vitals"></Configuration>
+</Plugin>
