@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>Travel</Name>
+		<Author>Dhor</Author>
+		<Version>10.9</Version>
+		<Image>DhorPlugins/travel/Resources/travel.tga</Image>
+	</Information>
+	<Package>DhorPlugins.Travel.Main</Package>
+	<!--<Configuration Apartment="Travel">
+	</Configuration>-->
+</Plugin>
