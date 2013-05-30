@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>567</Id>
+  <Name>LIP - Legendary Item Planner</Name>
+  <Version>1.7c Bridled</Version>
+  <Author>Equendil</Author>
+  <InfoUrl>http://www.lotrointerface.com/downloads/info567</InfoUrl>
+  <DownloadUrl>http://www.lotrointerface.com/downloads/download567</DownloadUrl>
+  <Descriptors>
+    <descriptor>Equendil\LIP.plugin</descriptor>
+  </Descriptors>
+  <Dependencies />
+</PluginConfig>
