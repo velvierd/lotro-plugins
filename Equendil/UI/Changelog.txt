@@ -1,0 +1,24 @@
+2012 October 19
+	- TabbedPanel increased to 10 panels
+
+2011 August 10
+	- TabbedPanel can be resized
+
+2011 July 21
+	- VirtualListBox: fixed a bug where changing the item count to a smaller number would take the scrollbar beyond possible values
+
+2011 July 4
+	- VirtualListBox: handles resizing
+	- Added ScrollBar class in replacement of Turbine's ScrollBar class
+	- Added Resizer class 
+	
+2011 July 1
+	- Added Tooltip class
+
+2011 June 29
+	- Added DragBox class
+
+2011 June 18
+	- VirtualListBox: can be scrolled using mouse wheel. 
+	- WindowManager: additional parameter to ManageWindow() to prevent the close-on-escape behaviour if unwanted.
+	- WindowManager: GUIRepositioning event added

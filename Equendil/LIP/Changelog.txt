@@ -1,0 +1,302 @@
+v1.7c
+	- Fixed: Fury Rating on level 85 2nd age bridles was off by one rank
+	- Fixed: Rating legacies between lvl 58 and 64 could be off by one rank
+	- Added: German translation
+	- Fixed: missing localization for the description of captain two handers ("Weapon (Two Handed)")
+	- Fixed: missing localization for "Anthem of War (Physical)"
+	- Enlarged some text fields to accomodate translations
+	- Fixed: Legacy selection panel wasn't resizing correctly to fit the window when first shown
+	- Fixed: A few text fields would show on multiple lines even though there was no room to do so
+
+v1.7b
+	- Fixed: missing stat legacies on regular legendary items.
+
+v1.7
+	- Added: bridles!
+	- Default level set to 85
+	- UI extended to 10 panels
+	- Added definition file for the plugin installer "Plugin Compendium"
+	
+v1.6
+	- Level 76 to 85, third and second ages are covered
+	- Fixed: Crystal upgrades apply on RoI third age items the same as real LIs
+
+	Altered and new legacies for RoR:
+	- (WRD) "Heal Bonus for Conviction" now maxes out at 10%
+	- (WRD) "Fist-Spear Gambits Threat Up, Rating" changed to "Fist-Spear Gambit Threat", now expressed in percentage.
+	- (WRD) "Shield-Spear Gambit Thread Down, Rating" changed to "Shield-Spear Gambit Threat", now expressed in percentage
+	- (CPT) "Healing from Strength of Will" changed to "Strength of Will Effects"
+	- (CPT) New legacy "Battle States and Defeat Response Duration" added
+	- (MNS) "Anthem of War (Ranged Damage)"] replaced with new legacy "Hammerhand Skills Bubble Magnitude"
+	- (GRD) "Overpower Power Cost" replaced with new legacy "Overwhelm Damage"
+	- (CHP) "Combat-only Effect Removal Delay" replaced with new legacy "Targeted Melee Skills Range"
+	- (CHP) "Hamstring Range" replaced with new legacy "Champion Skill Bubble Magnitude"
+	- (HNT) "Agile Rejoinder Heal Chance" now "Agile Rejoinder Heal Multiplier"
+	
+	Legacies fixed:
+	- (GRD) Fixed the value of "Shield Damage" at rank 1
+	- (GRD) Updated "Shield Smash Damage" values (either changed in RoR or possibly I confused the legacy with "Shield Damage" when I filled data)
+	- (GRD) Fixed incorrect value for "Reactive Block Damage" at rank 2
+	- (BRG) Fixed the value of "Clever Retort Damage and Healing" at rank 1
+	- (RNK) Fixed value of "Do Not Fall This Day Cooldown" at rank 5
+	- (RNK) Fixed values of "Target Shocking Touch Resist Rating" at level 75+
+	- (LRM) Fixed values of "Morale - Sign of the Wild: Protection" that were altered around U5 (I believe ...)	
+	- (LRM) Fixed values of "Burning Embers Range" (maxes out at 10, not 20)
+	- (HNT) Fixed: "Focus Bow Threat Down Rating" was displaying negative values instead of positive ones
+	- (HNT) Fixed: "Induction Bow Threat Down, Rating" was displaying negative values instead of positive ones
+	- (HNT) Fixed: "Ranged Skill Block Chance Modifier" was displaying positive values instead of negative ones
+	- (CPT) Fixed: "Time of Need Morale Cost" was displaying positive values instead of negative ones
+	
+	Name changes or corrections:
+	- (MNS) "Call of Orome Damage" renamed "OromÃ« and EÃ¤rendil Damage"
+	- (MNS) "Anthem of War (Melee Damage)" changed to "Anthem of War Damage (Physical)"
+	- (MNS) "Anthem of War (Tactical Damage)" renamed "Anthem of War Damage (Tactical)"
+	- (MNS) "Song of the Dead Cooldown" renamed "Song of Subdual Cooldown".
+	- (MNS) "Anthem of Composure (Tactical Defence)" renamed "Anthem of Composure (Tactical Mitigation)"
+	- (WRD) "Shield Tactics Tactical Mitigation" renamed "Shield Tactics Tactical Mitigation Bonus"
+	- (LRM) "Morale - Sign of the Wild Protection" renamed "Morale - Sign of the Wild: Protection"
+	- (LRM) "Threat - Sign of the Wild Rage" renamed "Threat - Sign of the Wild: Rage"
+	- (LRM) "Storm Lore Damage" renamed "Storm-lore Damage"
+	- (HNT) "Induction Bow Threat Down Rating" renamed "Induction Bow Threat Down, Rating"
+	- (HNT) "Focus Bow Threat Down Rating" renamed "Focus Bow Threat Down, Rating"
+	- (HNT) "Endurance Quick Shot Threat Down Rating" renamed "Endurance Quick Shot Threat Down, Rating"
+	- (HNT) "Strength Quick Shot Slow" renamed "Quick Shot Slow in Strength"
+	- (CHP) "Harmstring Duration" renamed "Hamstring Duration"
+	- (CPT) "Captain's Escape from Darkness Cooldown" renamed "Escape from Darkness Cooldown"
+	- (GRD) "Warrior's Heart Duration" renamed "Warrior's Heart/Fortitude Duration"
+	- (GRD) "Targeted Melee Skill Range" renamed "Targeted Melee Skills Range"
+	
+	Values set to several decimal places to match live values:
+	- (MNS) "Inspire Fellows Healing"
+	- (MNS) "Raise the Spirit Healing"
+	- (MNS) "Bolster Courage Healing"
+	- (MNS) "Healing & Motivation Skills Healing"
+	- (MNS) "Healing Skills Power Cost"
+	- (MNS) "Triumphant Spirit Cooldown"
+	- (MNS) "Anthem Duration"
+	- (WRD) "Shield Gambit Line Healing Bonus"
+	- (WRD) "Power, Spear-Shield Gambit Line"
+	- (WRD) "Forced March Movement Bonus"
+	- (CPT) "Words of Courage Power and Morale Cost"
+	- (CPT) "Vocal Skills Healing"
+	- (CPT) "Rallying Cry Healing"
+	- (CPT) "Melee Skills Healing"
+	- (CPT) "Time of Need Morale Cost"
+	- (CPT) "Valiant Strike Morale Return"
+	- (GRD) "Catch a Breath Morale Heal"
+	- (GRD) "Shield Smash Damage"
+	- (GRD) "Power Restore on Reactions"
+	- (BRG) "Gamble Chance"
+	- (BRG) "Addle Induction Multiplier"
+	- (BRG) "Sneak Movement Speed"
+	- (RNK) "Shocking Words Stun Chance"
+	- (RNK) "Epic for the Ages Healing"
+	- (RNK) "Writ of Health Healing"
+	- (RNK) "Ceaseless Argument Damage"
+	- (RNK) "Mending Verse Healing"
+	- (LRM) "Inner Flame Healing"
+	- (LRM) "Healing from Beacon of Hope"
+	- (LRM) "Threat - Sign of the Wild Rage"
+	- (CHP) "Strikes Line Power Cost"
+	- (CHP) "Ardour/Glory in-Combat Power Regen"
+	- (CHP) "Bracing Attack Heal"
+	- (CHP) "Swift Strike/Swift Blade Power Cost"
+	- (CHP) "Blade Line Area Damage Power Cost"
+	- (CHP) "Heroics Morale Heal Chance"
+	
+v1.5c
+	- Fixed: "Glorious Foreshadowing Duration" (RNK) was missing values due to a typo in the code
+	- Fixed: "Fist Gambit Critical Rating" was missing a value causing a lua error when manipulating that legacy (WRD)
+	- Fixed incorrect costs for "Catch a Breath Morale Heal" (GRD) 
+v1.5b
+	- Added Russian localization provided by 'PulseDiver' of the Mirkwood Russian server 
+	- Fixed: Loading/saving data on non english clients should now work
+	- Fixed: Russian clients properly identified as such
+	- Increased the size of some labels to make room for translated text
+	- Made some labels adjust with the size of the plugin window to give more room to translated text
+	- Some font definitions added to localization files should smaller ones be required for translated text
+	- Removed clutter in the legacy configuration sub panel, points spent and to next rank are now displayed without labels
+	- Fixed: "Stealth Level" was incorrectly setup, causing a lua error when manipulating burglar tools
+	- Added support for legacies that become deprecated (current behaviour: hidden from view)
+	- "Cure Resistance Duration" (lore-master books) is now marked as deprecated
+	
+v1.5
+	- Fixed: The field of the item name was incorrectly set to be multi-line
+	- Added support for LI upgrades through star-lit crystals
+	- Experience needed to level first age weapons corrected to match live values
+	- Values set to two decimals where relevant for some legacies
+	- Unknown values show as "?"
+	- Added preliminary support for localization
+	- Updated Tactical Damage, DPS, Shield Use and Tactical Healing ratings of LIs that were changed at some point or another
+	- Fixed: "Vivid Imagery Target" (RNK) was incorrectly set as a major legacy
+	- Fixed: "Ents Go To War Damage" (LRM) was incorrectly set as a major legacy
+	- Fixed: "Increased Block, Parry and Evade from Protection" (GRD) now has adjusting values depending on level/age/crystals
+	- Fixed the name of the following legacies
+		"Increased Duration of Make Haste" renamed "Make Haste Duration" (Captains)
+		"Tactics: On Guard Parry Rating Buff" (was missing ':') (Captains)
+		"Ambush and Careful Step Induction" was improperly named "Ambush and Careful Step Duration" (Wardens)
+	- Updated legacies to reflect Update 6 changes:
+		Wardens:
+			"War-cry Threat Up" changed to "Shield Gambit Buff Duration"
+			"Wall of Steel Parry Rating" changed to "Spear Gambit Parry Rating"
+			"Exultation of Battle Threat Up" changed to "Fist-Spear Gambits Threat Up"
+			"Spear of Virtue Threat Up" changed to "Gambit Lifetap Damage"
+			"Spear of Virtue Damage" changed to "Resolution Damage"
+			"Mighty Blow Damage" changed to "Spear Gambit Damage (Melee)"
+			"Onslaught Damage" changed to "Shield Tactics Tactical Mitigation"
+			"Piercing Strike Threat Up" changed to "Shield-Spear Gambit Thread Down Rating"
+			"Power, power Attack Gambit Line" changed to "Power, Shield-Spear Gambit Line"
+			"Power, Fierce Resolve Gambit Line" changed to "Power, Fist-Spear Gambit Line"
+			"Dance of War Evade Rating" changed to "Fist Gambit Evade Rating Bonus"
+			"Celebration of Skill Healing" changed to "Shield Gambit Line Healing Bonus"
+			"Conservation In Combat Power Regen" renamed "In Combat Power Regeneration"
+			"Determination In Combat Morale Regeneration" renamed "Determination Morale Regen"
+			"Forced March Power Penalty" changed to "Forced March Movement Bonus"
+			"Dark Before Dawn Power Restoration" changed to "Fist Gambit Critical Rating" (does not adjust with level/age currently)
+			"Power Safeguard Gambit Line" changed to "Power, Spear-Shield Gambit Line"
+			"Restoration Morale Healed" changed to "Fist Gambit Buff Duration Bonus"
+			"Safeguard Healing" changed to "Spear-Shield Damage Bonus"
+			"Warden’s Triumph Duration" changed to "Defiant Challenge Cooldown Modifier"
+		Rune-keepers:
+			"Ceaseless Argument Power cost" - Changed to Damage increase
+			"Self-motivation Power Restore" - Changed to cooldown reduction
+			"Glorious foreshadowing Duration" - Reduced to 9 seconds
+			"Distracting Flames Cooldown" – Reduced to 15 seconds
+
+v1.4
+	- "Healing from Rallying Cry" renamed "Rallying Cry Healing" (captains)
+	- "Damage for Relentless/Remorless Strikes" renamed "Relentless/Remorless Strikes Damage" (champions)
+	- Updated legacies to reflect Update 5 changes:
+		Wardens:
+			"Exultation of Battle Threat Up" flattened
+			"War Cry Threat Up", adjusts like rating legacies
+			"Piercing Cry Threat Up", adjusts like rating legacies
+			"Spear of Virtue Threat Up", adjusts like rating legacies 
+			"Dark Before Dawn Power Restered" flattened
+			"Javelin Skills Max Range" flattened
+		Minstrels:		
+			"Soliloquy of Spirit Hot Pulses" flattened
+			"Call of the 2nd age targets" flattened
+		Guardians:
+			"Challenge Targets" flattened
+			"Guardian Area Effect Melee Targets" flattened
+			"Targeted Melee Skill Range" flattened
+			"Guardian Bleed Pulses" flattened, 9 ranks
+			"Sting Damage", lower costs
+			"Threat Generation Up Rating", adjusts like rating legacies
+			"Shield Wall Range" flattened
+		Lore-masters:
+			"Wizard's Fire Pulses" flattened, 9 ranks
+			"Burning Embers Pulses" flattened, 9 ranks
+			"Ancient Craft Targets" flattened
+			"Bane Flare Targets" flattened
+			"Fire Lore Targets" flattened
+			"Burning Embers Range" flattened
+			"Cracked Earth Range" flattened
+		Burglars:
+			"Provoke Threat Up Rating" flattened, adjusts like rating legacies
+			"Riddle Range", flattened
+			"Trick Range", flattened
+			"Stealth Level", flattened
+			"Pulse Modifier for Glee", flattened, 9 ranks
+		Champions:
+			"Ardour/Glory PiP Interval" flattened
+			"Rend Pulses", flattened, 9 ranks
+			"Harmstring Range", flattened
+		Hunters:
+			"Maximum Target for AoE Skills" flattened
+			"Endurance Quick Shot Threat Down Rating": ????????????????
+			"Improved Strength of Earth Morale Regen" flattened, changed to percents
+			"Stealth Detection" flattened
+		Rune-keepers:
+			"Vivid Imagery Targets" flattened
+			"Pulses Prelude to Hope" flattened, 9 ranks
+		Captains:
+			"Pressing Attack Max Targets" flattened
+			"Words of Courage Pulses" flattened
+
+v1.3b
+	- Rollbacked a modification made to code common to other plugins, causing graphical issues in them.
+		
+v1.3
+	- Fixed: Tier 6 costs for "Guardian Bleed Pulses" and "Rend Pulses" (champions) were incorrect
+	- Fixed: "Rend Pulses" (champions) was missing one rank
+	- Fixed: "Targeted Melee Skill Range" (guardians) had an inccorect number of ranks at lvl 70+ as well as erroneous values.
+	- Fixed: costs & values for "Reduced Cooldown for Muster Courage" (captains) were incorrect, renamed "Muster Courage Cooldown"
+	- Fixed: "Adamant/Invincible Duration" (champions) had incorrect values & costs at all tiers
+	- Fixed: "Stealth Level" and "Stealth Detection" had incorrect costs at rank 3, tier 6 on items below level 71
+	- Fixed: "Overwhelm Critical Rating" (Guardians) had slightly inccorrect values on level 75 2nd age weapons
+	- Fixed: "Harmstring Range" (champions) had incorrect costs & values at all levels
+	- Fixed: "Finesse Rating" (rune-keepers) had incorrect values on all LIs but level 75 2nd age ones
+	- Fixed: "Guardian Bleed Pulses", "Rend Pulses" (champions), "Pulse Modifier for Glee" (burglars), "Wizard Fire Pulses" & "Burning Embers Pulses" (lore-masters), had incorrect rank 2 costs on lvl 67 and 73 third age LIs as well as lvl 65 first age LIs.
+
+v1.2
+	- show/hide/toggle commands, /lip without arguments toggles the window
+	- item experience displayed for key levels
+	- LIP's window can be resized
+	- Fixed a bug where the legacy summary (right panel) would improperly display multiple ranks highlighted as the current rank
+	- Fixed: adding or removing a legacy wouldn't update total points spent / remaining
+	- Weapons now have new (arbitrary) RoI icons !
+	- Fixed: "Find the Path Movement Speed" costs were incorrect at tier 1
+	- Fixed: Captain legacy "Routing Cry Damage" was showing the wrong value for rank 2.
+	- Fixed: Captain legacy "Cry Power Cost", costs / rank were erroneous for tiers 1-5.
+	- Fixed: Rank 7 cost of certain legacies at certain tiers were incorrect
+	- Fixed: loading LIPs after an update could cause an error on legacies that had ranks removed.
+	- Corrected a few typos in legacy names
+	- Legendary items are now created with a default level-to-use of 75 instead of 65
+	- Legacies updated to reflect changes in Rise of Isengard.
+	The following legacies have been altered:
+		- Pulses legacies with fewer than 9 ranks were given one additional rank
+		- "Prelude to Hope Pulses" and "Words of Courage Pulses" have variable rank 2 costs
+		- +Targets, +Pulses, Stealth Level/Detection as well as "Ardour/Glory Pip Interval" lose ranks at higher levels
+		- "Threat Up" & "Threat Down" legacies", most +Range legacies as well as "Soliloquy of Spirit Pulses", "Dark Before Dawn Power Restored", "Improved Strength of the Earth Morale Regen" now have variable costs at certain ranks at higher levels.
+		- Tactical Damage (Minstrel, lore-master, runekeeper weapons) and Shield Use (guardian belts) ratings have been updated to new values.
+		- All "rating" legacies updated to cover the new range of values in RoI
+		- Champions:
+			"Swift Strike Power Cost" renamed "Swift Strike/Swift Blade Power Cost"
+			"Sudden Defence Duration" changed to new legacy "Sudden Defence Cooldown"
+			"Damage for Feral/Savage Strikes" renamed "Feral/Savage Strikes Damage"
+			"Ferocious Strike Cooldown": updated to RoI values, costs and number of ranks.
+			"Dire Need Skill Cooldown": updated to RoI values, renamed "Dire Need Cooldown"
+			"Blade Line Area of Effect Power Cost" renamed "Blade Line Area Damage Power Cost"
+			"Reduced Cooldown for Battle Frenzy" renamed "Battle Frenzy Cooldown"
+		- Captains:
+			"Reduced Cooldown for Time of Need": renamed "Time of Need Cooldown"
+			"Duration of In Defence of Middle-Earth": changed to new legacy "Words of Courage Pulses"
+			"Cooldown for Shield of the Dunedain" renamed "Shield of the Dunedain Cooldown", updated to new values.
+		- Guardians:
+			"Warrior's Heart Morale Heal" renamed to "Warrior's Heart/Fortitude Morale Heal",
+			"Guardian's Threat Parry and Block Rating" renamed "Guardian's Threat Block and Parry Rating"
+			"Warrior's Heart/Fortitude Morale Heal": modifiers altered to match live values.
+			"Maximum Targets for AoE Skills" renamed "Guardian Area Effect Melee Targets"
+		- Minstrel:
+			"Ballad of Composure (Fear Resistance)": renamed "Anthem of Composure (Resistance)"
+			"Ballad of Composure (Ranged Damage)": renamed "Anthem of War (Ranged Damage)" & costs increased to match RoI values
+			"Ballad of Flame (Fire Defence": renamed "Anthem of Composure (Tactical Defence)"
+			"Ballad of Flame (Tactical Damage)": renamed "Anthem of War (Tactical Damage)"
+			"Ballad of War (Melee Damage)": renamed "Anthem of War (Melee Damage)"
+			"Cure Fear Cooldown": renamed "Story of Courage Cooldown"
+			"Cry of the Chorus Cooldown": modifiers altered to match new RoI values.
+			"Chord of Salvation Cooldown": down to five ranks, altered values & costs.
+			"Target Resist Rating (Cry of the Valar)": renamed "Target Resist Rating (Invocation of Elbereth)"
+			"War-speech Tail Effect Duration": changed to new legacy "Anthem Duration"
+			"Tier 1 Ballad Damage": renamed "Minor Ballad Damage"
+			"Tier 2 Ballad Damage": renamed "Perfect Ballad Damage"
+			"Rally! Cooldown": modifiers changed to match new RoI values.
+			"Still as Death Cooldown": modifiers changed to match new RoI values.
+			"Threat from Healing" renamed "Healing Threat"
+		- Burglars
+			"Tricks Duration": renamed "Non-Enrage Trick Duration"
+		- Hunters
+			"Quick Shot Critical Rating" changed to "Quick Shot Critical Chance" (legacy changed from rating to %)
+		- Runekeeper:
+			"Penetrate Target Resist", renamed "Finesse Rating"
+	
+v1.1 - June 17 2011
+	- Added missing "Overpower Power Cost" legacy to guardian weapons.
+	- Moved from using Event to WeakEvent for Legacy and LegendaryItem objects
+	- The current character's class is used by default at startup
+	- The legacy summary info is now updated dynamically
+	- Legendary items can have their name changed.
+	- Position of the window is stored.
+	- Added setting to disable showing the window when started.

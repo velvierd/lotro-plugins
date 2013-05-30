@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>LIP</Name>
+		<Author>Equendil</Author>
+		<Version>1.7c Bridled</Version>
+		<Image>Equendil/UI/images/glowsword.jpg</Image>
+		<Description>LIP (Legendary Item Planner) is a plugin for LotRO that assists the player in planning legendary items, through a familiar user interface.</Description>
+	</Information>
+	<Package>Equendil.LIP.Main</Package>
+</Plugin>
