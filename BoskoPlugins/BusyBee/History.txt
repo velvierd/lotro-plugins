@@ -1,0 +1,90 @@
+--------------------------------------------------------------------------------
+-- Busy Bee Tasks plugin for Lord of The Rings Online
+--
+-- by Bosko (patch by Gardori)
+--
+-- http://www.lotrointerface.com/downloads/fileinfo.php?id=733
+--------------------------------------------------------------------------------
+
+Version history:
+
+currently unversioned (2012-07-12 by zonk)
+
+-Added support for german language, added german language file
+
+version 1.3.6 (6/6/2012 by Gardori)
+
+-Patch for ItemRemoved event misfire. Fix suggested by RandomAugury 
+
+version 1.3.5 (5/26/2012 by Gardori)
+
+-Added Moria tasks
+
+version 1.3.4 (3/14/2012 by phantasm8)
+
+- Added Great River tasks
+- Fixed Update 6 item updating issues
+- Changed opacity command range to accept values from 1 to 100
+
+version 1.3.3a (11/9/2011 by phantasm8)
+
+- Added Dunland tasks
+- Fixed level of Annuminas tasks
+- Fixed Bree-land task: Broken Hatchet instead of Broken Wooden Hatchet
+
+version 1.3.3 (4/17/2011)
+
+- Fixed Tinnudir tasks some more (removed lvl 35+ tasks)
+- Fixed a bug with level up event not being processed correctly
+
+version 1.3.1 (4/12/2011)
+
+- Fixed Tinnudir tasks
+- Added /bzb junk to list items with no existing tasks or items that do not 
+  yield rep award
+- A few bug fixes
+
+version 1.3 (4/10/2011)
+
+- Added option to show a *draggable* item icon next to each item with count > 0
+    - Useful for organizing bags or mailing items to friends or alts
+- Consolidated 'By Level' and 'By Name' views into one view with dynamic 
+  cumulative level ranges
+- Added fade-in and fade-out animation
+- Lots of other refinements under the hood.
+
+version 1.2.2 (3/29/2011)
+
+- Fixed the task list in Oatbarton, Fixed rep reward for Hobbiton
+- Added /bzb sort, places all the task items at the end of the bag slots
+    - Works well, but not refined enough to warant a UI button. 
+    - Items themselves remain unsorted
+
+version 1.2.1 (3/26/2011)
+
+- Fixed the sorting algorithm for location view
+
+version 1.2 (3/26/2011)
+
+- Added fourth view, all items by name
+- Added a window lock, keeping the window passive and disabling resize and move
+- Added a filter to show items with enough count (Cnt > N)
+- Busy Bee window stays behind other windows
+- Changed colors to moke text easier to read
+- Other less noticable improvements and tweaks
+
+version 1.1.2 (3/23/2011)
+
+ - Removed /bb shortcut to not clash with other plugins. Use /bzb or /busybee instead.
+
+ version 1.1 (3/22/2011)
+
+- Multiple display modes: by location, by faction, all items by level
+- UI refinements
+- Performance optimizations
+- Overhaul of the code to make it more robust
+- Bug fixes
+
+version 1.0 (3/18/2011)
+
+- Initial version released

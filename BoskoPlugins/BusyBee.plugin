@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>BusyBee</Name>
+		<Author>Bosko (Russian locale Ergil Osin and Romiros)</Author>
+		<Version>1.3.7.1</Version>
+	</Information>
+	<Package>BoskoPlugins.BusyBee.Main</Package>
+	<Configuration Apartment="BusyBee"></Configuration>
+</Plugin>
