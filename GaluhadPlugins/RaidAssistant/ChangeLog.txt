@@ -1,0 +1,17 @@
+v.1.2.2
+- Updated to recognise loot from the two new channels - each with it's own logging option.
+- Made some more adjustments to the loot logging to further reduce lag.
+
+v.1.2.1
+- Made some adjustments to the language file which hopefully should resolve issues experienced by Russian and German players.
+- Made some adjustments to the way the chat logger works, should hopefully reduce some of the lag experienced by some players.
+
+v1.2.0
+
+- Added French translations, supplied by Kiki.
+- Added Russian translations, supplied by DToX
+- Added a new command: /RAReset - which will reset the rolls list.
+- Implemented VindarPatch
+- Made a couple of changes to the way the chat log filter works.
+- Changed the way the group scripts work so they no longer rely on the chat channels - then realised that the Party API is still borked and changed it back :p
+- Added a new window to allow you to save shouts to use during raids.

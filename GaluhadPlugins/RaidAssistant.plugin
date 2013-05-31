@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>RaidAssistant</Name>
+		<Author>Galuhad</Author>
+		<Version>1.2.2</Version>
+		<Description>Tool to help with the organising and management of raids, including roll sorting, loot history, raid logging, shouts, and a group blacklist.</Description>
+		<Image>GaluhadPlugins/RaidAssistant/Resources/MainIcon.tga</Image>
+	</Information>
+	<Package>GaluhadPlugins.RaidAssistant.Main</Package>
+	<Configuration Apartment="RaidAssistant" />
+</Plugin>
