@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>Crafting Companion</Name>
+		<Author>Galuhad</Author>
+		<Version>1.2.0_ru-beta</Version>
+		<Description>This plugin assists you with your day-to-day crafting.</Description>
+		<Image>GaluhadPlugins/CraftingComp/Resources/MainIcon.tga</Image>
+	</Information>
+	<Package>GaluhadPlugins.CraftingComp.Main</Package>
+	<Configuration Apartment="Crafting Companion" />
+</Plugin>
