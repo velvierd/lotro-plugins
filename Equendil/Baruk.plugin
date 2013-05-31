@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>Baruk</Name>
+		<Author>Equendil</Author>
+		<Version>1.1</Version>
+	</Information>
+	<Package>Equendil.QuickBars.Main</Package>
+</Plugin>
