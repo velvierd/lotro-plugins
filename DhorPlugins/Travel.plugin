@@ -3,7 +3,7 @@
 	<Information>
 		<Name>Travel</Name>
 		<Author>Dhor</Author>
-		<Version>10.9</Version>
+		<Version>10.9b5 RUS</Version>
 		<Image>DhorPlugins/travel/Resources/travel.tga</Image>
 	</Information>
 	<Package>DhorPlugins.Travel.Main</Package>
