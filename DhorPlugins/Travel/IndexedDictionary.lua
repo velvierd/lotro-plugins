@@ -168,10 +168,10 @@ function TravelDictionaries:CreateDictionaries()
 	wardenLocations:AddData("Сбор в Мглистых горах","0x700303DD","Сбор в Мглистых горах"); 
 	wardenLocations:AddData("Сбор в Сноуборне","0x7003198D","Сбор в Сноуборне");				
 
-	racialLocations:AddData("Дорога в Бри (Рас.)","0x700062F6","Возвращение в Бри");
-	racialLocations:AddData("Дорога в Шир (Рас.)","0x700062C8","Возвращение в Шир");
-	racialLocations:AddData("Дорога к Вратам Торина (Рас.)","0x70006346","Путь к Вратам Торина");
-	racialLocations:AddData("Дорога в Ривенделл (Рас.)","0x7000631F","Путь в Ривенделл"); 
+	racialLocations:AddData("Дорога в Бри (Рас.)","0x700062F6","Дорога в Бри");
+	racialLocations:AddData("Дорога в Шир (Рас.)","0x700062C8","Дорога в Шир");
+	racialLocations:AddData("Дорога к Вратам Торина (Рас.)","0x70006346","Дорога к Вратам Торина");
+	racialLocations:AddData("Дорога в Ривенделл (Рас.)","0x7000631F","Дорога в Ривенделл"); 
 
    -- check if a function that only exists in the newest update exists,
    -- if so, add the Return Home skills
@@ -195,7 +195,7 @@ function TravelDictionaries:CreateDictionaries()
 	repLocations:AddData("Возвращение к Вратам Торина (Реп.)","0x7001BF91","Путь к Вратам Торина");
 	repLocations:AddData("Возвращение в Бри (Реп.)","0x7001BF90","Возвращение в Бри");
 	repLocations:AddData("Возвращение в Занорье (Реп.)","0x70023262","Возвращение в Занорье");
-	repLocations:AddData("Возвращение в Ривенделл (Реп.)","0x70023263","Путь в Ривенделл");
+	repLocations:AddData("Возвращение в Ривенделл (Реп.)","0x70023263","Возвращение в Ривенделл");
 	repLocations:AddData("Возвращение в Ост Гурут (Реп.)","0x70020441","Возвращение в Ост Гурут");
 	repLocations:AddData("Возвращение в Лихолесье (Реп.)","0x7001F374","Возвращение в Лихолесье");
 	repLocations:AddData("Возвращение в Энедвайт (Реп.)","0x70021FA2","Возвращение в Энедвайт"); 
