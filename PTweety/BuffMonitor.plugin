@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>BuffMonitor</Name>
+		<Author>PTweety</Author>
+		<Version>1.0.0</Version>
+		<Image>PTweety\BuffMonitor\Resources\bmIcon.tga</Image>
+		<Description><![CDATA[BuffMonitor is a plugin to monitor any effects. All you need is at least a unique part of the effects name.
+
+Usage:
+- /bm options shows the options dialog within the Turbine Plugin Manager
+- Right click on icons or effects to show the context menus
+- Ctrl+\ to move or alter orientation of the icons or effect windows
+- Ctrl+\ and then hold down Shift to snap windows to each others
+- Ctrl+\ and then hold down Alt to snap windows to an invisible grid of 16x16 pixel (in case of resizing the grid is 4x2)
+- Ctrl+\ to resize the window with the resize handle
+- In the german client please use Strg+# instead of Ctrl+\
+
+Search Strings:
+You can use a simple, case sensitive text as search string (except the magic characters ^$()%.[]*+-?) but you may also want to check for patterns. i.e.
+- Escape magic characters with %, i.e. %x (where x is any non-alphanumeric character) represents the character x.
+- Find any character (.), e.g. Poi.on matches Poison
+- Find multiple characters ([...]), e.g. any of the numbers 1, 2, 3 are found by [123].
+- For more information see the Lua documentation, Chapter 5.4.1: http://www.lua.org/manual/5.1/manual.html#5.4.1
+
+Credits:
+- Settings, Options and CallBack handling by Pengoros
+- DragBar by Deusdictum
+- Window arrangement inspired by MrJackdaw
+
+You may also want to visit:
+http://www.lotrointerface.com/downloads/info521-BuffMonitor.html]]></Description>
+	</Information>
+	<Package>PTweety.BuffMonitor.Main</Package>
+</Plugin>
